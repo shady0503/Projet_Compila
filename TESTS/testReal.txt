@@ -1,0 +1,21 @@
+program TestRealType;
+
+var
+  RealNumber1, RealNumber2, Result: Real;
+
+begin
+  RealNumber1 := 5.5;
+  RealNumber2 := 2.3;
+
+  Result := RealNumber1 + RealNumber2;
+  write(Result);
+
+  Result := RealNumber1 - RealNumber2;
+  write(Result);
+
+  Result := RealNumber1 * RealNumber2;
+  write(Result);
+
+  Result := RealNumber1 / RealNumber2;
+  write(Result);
+end.

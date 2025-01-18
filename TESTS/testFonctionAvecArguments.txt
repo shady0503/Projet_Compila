@@ -1,0 +1,18 @@
+program TestFuncWithArgs;
+
+var
+  x, y, resGlobal: Integer;
+
+function Multiply(a, b: Integer): Integer;
+begin
+  Multiply := a * b;
+end;
+
+begin
+  read(x);
+  read(y);
+
+  resGlobal := Multiply(x, y);
+
+  write(resGlobal);
+end.

@@ -1,0 +1,16 @@
+program TestCase;
+
+var
+  number: Integer;
+
+begin
+  number := 1;
+
+  case number of
+    1: write(100);
+    2: write(200);
+    3: write(300);
+  else
+    write(0);
+  end;
+end.

@@ -1,0 +1,16 @@
+program noArgsFunct;
+
+var
+  x, y, Result: Integer;
+
+function Multiply: Integer;
+begin
+  Result := x * y;
+end;
+
+begin
+  read(x);
+  read(y);
+  Result := Multiply;
+  write(Result);
+end.

@@ -1,0 +1,18 @@
+program TestIfElse;
+
+var
+  a, b: Integer;
+
+begin
+
+read(a);
+read(b);
+
+  if a > b then
+    if a > 0 then
+      write(1)
+    else
+      write(2)
+  else
+    write(3);
+end.

@@ -1,0 +1,17 @@
+program RepeatLoopExample;
+
+var
+  number, sum;
+
+begin
+  sum := 0;
+
+  repeat
+    read(number);
+
+    if number >= 0 then
+      sum := sum + number;
+  until number < 0;
+
+  write(number);
+end.

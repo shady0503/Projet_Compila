@@ -1,0 +1,17 @@
+program SimpleProcedureExample;
+
+var
+  x,y, Result: Integer;
+
+procedure Multiply(x, y: Integer);
+begin
+  Result := x * y;
+end;
+
+
+begin
+read(x);
+read(y);
+Multiply(x,y);
+write(Result);
+end.
