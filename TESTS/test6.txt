@@ -1,6 +1,6 @@
 program test;
 const tata=12;
-var x;
+var x : real;
 begin
    read(x);
    while x<=12 do

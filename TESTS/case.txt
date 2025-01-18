@@ -4,7 +4,7 @@ var
   number: Integer;
 
 begin
-  number := 1;
+  number := 4;
 
   case number of
     1: write(100);
