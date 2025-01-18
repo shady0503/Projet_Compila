@@ -1,8 +1,6 @@
-# Documentation Détaillée du Compilateur/Interpréteur (Frérot)
+# Documentation Détaillée du Compilateur/Interpréteur
 
-Ce document explique étape par étape le fonctionnement du système de compilation et d'interprétation, en mettant l'accent sur les principaux mots-clés (tokens) mémorisés, le rôle de la pile, la gestion de la mémoire, et le flux global du programme. L'explication est rédigée de manière simple et efficace pour te permettre de comprendre comment le code source est transformé et exécuté.
-
----
+Ce document explique étape par étape le fonctionnement du système de compilation et d'interprétation, en mettant l'accent sur les principaux mots-clés (tokens) mémorisés, le rôle de la pile, la gestion de la mémoire, et le flux global du programme.
 
 ## 1. Fonctionnement Global du Système
 
